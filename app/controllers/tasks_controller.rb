@@ -18,10 +18,10 @@ class TasksController < ApplicationController
         end
     end
 
-    def updated
+    def update
         task = Task.find_by_id(params[:id])
         if task.update(task_params)
-            render.json: task
+            renderjson: task
         else
             render json: {error: "Could not Update"}
         end

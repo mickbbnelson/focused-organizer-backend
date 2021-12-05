@@ -18,6 +18,15 @@ class TasksController < ApplicationController
         end
     end
 
+    def updated
+        task = Task.find_by_id(params[:id])
+        if task.update(task_params)
+            render.json: task
+        else
+            render json: {error: "Could not Update"}
+        end
+    end
+
     def destroy
         task = Task.find_by_id(params[:id])
         task.destroy

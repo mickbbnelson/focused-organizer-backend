@@ -21,7 +21,7 @@ class TasksController < ApplicationController
     def destroy
         task = Task.find_by_id(params[:id])
         task.destroy
-        render json {message 'successfully deleted'}
+        render json: task.id
     end
 
     def task_params

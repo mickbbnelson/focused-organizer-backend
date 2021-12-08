@@ -1,6 +1,6 @@
 class TasksController < ApplicationController
     def index
-        tasks = Task.all
+        tasks = Task.all.order(:id)
         render json: tasks
     end
 
@@ -21,7 +21,7 @@ class TasksController < ApplicationController
     def update
         task = Task.find_by_id(params[:id])
         if task.update(task_params)
-            renderjson: task
+            render json: task
         else
             render json: {error: "Could not Update"}
         end

@@ -1,24 +1,27 @@
-# README
+Focused Organizer Frontend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Description: Welcome to Focused Organizer Application, the perfect tool to stay organized to help accomplish your goals.  With this app, users can create tasks to add to a prioritized list.  From the task list view users can filter taks, click to view more details about a task, edit a task or delet a task once it has been completed.  Users can also view a calendar which will display date/time specific tasks under the specific date.
 
-Things you may want to cover:
+Installation:
 
-* Ruby version
+-Once cloned run "bundle install"
 
-* System dependencies
+-Run "rails db:migrate"
 
-* Configuration
+-To start the server run "rails s"
 
-* Database creation
+-Once the server is running, open up a new terminal window to run the frontend. Type "yarn start" to open the frontend in your browser.
 
-* Database initialization
+-Link to the frontend repository: https://github.com/mickbbnelson/focused-organizer-frontend
 
-* How to run the test suite
+Contributing:
 
-* Services (job queues, cache servers, search engines, etc.)
+Bug reports and pull requests are welcome on GitHub at https://github.com/mickbbnelson/focused-organizer-backend. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the code of conduct.
 
-* Deployment instructions
+License:
 
-* ...
+The gem is available as open source under the terms of the MIT License.
+
+Code of Conduct:
+
+Everyone interacting with the Focused-Organizer-Backend project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the code of conduct.

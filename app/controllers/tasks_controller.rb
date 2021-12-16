@@ -4,11 +4,6 @@ class TasksController < ApplicationController
         render json: tasks
     end
 
-    def show
-        task = Task.find_by_id(params[:id])
-        render json: task
-    end
-
     def create
         task = Task.new(task_params)
         if task.save

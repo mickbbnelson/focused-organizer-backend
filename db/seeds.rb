@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# trash = Task.create(title: 'Take out the trash', priority: 'Bottom',  category: 'Home' , notes: 'Take out to the curb every tuesday night', date: '2021-12-16T12:00:00')
-# receivables = Task.create(title: 'Receivables Report', priority: 'Top',  category: 'Work' , notes: 'Need to send before noon tomorrow', date: '2021-12-17T01:30:00')
-# blog_post = Task.create(title: 'Blog Post', priority: 'Top',  category: 'School' , notes: 'Finish final draft and post', date: '2021-12-18T02:00:00')
-# pay_bills = Task.create(title: 'Pay Bills', priority: 'Middle',  category: 'Home' , notes: 'Need all but water bill paid by Friday', date: '2021-12-19T06:30:00')
-# finish_labs = Task.create(title: 'Weekly Labs', priority: 'Middle',  category: 'School' , notes: 'Finish labs by Sunday', date: '2021-12-20T11:00:00')
+ trash = Task.create(title: 'Take out the trash', priority: 'Bottom',  category: 'Home' , notes: 'Take out to the curb every tuesday night', date: '2022-1-16T12:00:00')
+ receivables = Task.create(title: 'Receivables Report', priority: 'Top',  category: 'Work' , notes: 'Need to send before noon tomorrow', date: '2022-1-17T01:30:00')
+ blog_post = Task.create(title: 'Blog Post', priority: 'Top',  category: 'School' , notes: 'Finish final draft and post', date: '2022-12-18T02:00:00')
+ pay_bills = Task.create(title: 'Pay Bills', priority: 'Middle',  category: 'Home' , notes: 'Need all but water bill paid by Friday', date: '2022-1-19T06:30:00')
+ finish_labs = Task.create(title: 'Weekly Labs', priority: 'Middle',  category: 'School' , notes: 'Finish labs by Sunday', date: '2022-1-20T11:00:00')

@@ -16,7 +16,7 @@ Welcome to Focused Organizer Application, the perfect tool students who also nee
 
 -Link to the frontend repository: https://github.com/mickbbnelson/focused-organizer-frontend
 
-## Features
+## Features:
 
 -Manage tasks in an organized list.  From here, you can create, update, delete and filter tasks from the prioritized list.
 
@@ -26,7 +26,7 @@ Welcome to Focused Organizer Application, the perfect tool students who also nee
 
 ![Calendar Image](https://i.postimg.cc/pdfTdfG9/Readme-Image-2.jpg)
 
-## Technologies
+## Technologies:
 
 -Ruby on Rails API, ActiveRecord
 

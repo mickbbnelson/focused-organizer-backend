@@ -11,3 +11,5 @@
  blog_post = Task.create(title: 'Blog Post', priority: 'Top',  category: 'School' , notes: 'Finish final draft and post', date: '2022-2-28T02:00:00')
  pay_bills = Task.create(title: 'Pay Bills', priority: 'Middle',  category: 'Home' , notes: 'Need all but water bill paid by Friday', date: '2022-2-19T06:30:00')
  finish_labs = Task.create(title: 'Weekly Labs', priority: 'Middle',  category: 'School' , notes: 'Finish labs by Sunday', date: '2022-2-20T11:00:00')
+
+ 
